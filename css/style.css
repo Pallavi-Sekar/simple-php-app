@@ -1,0 +1,156 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ededed;
+}
+
+.header {
+    background-color: black;
+    max-width: 100%;
+    padding: 40px;
+    margin: 0;
+}
+
+.header h1 {
+    color: white;
+    text-align: center;
+}
+
+.navigations {
+    background-color: rgb(93, 92, 92);
+    max-width: 100%;
+    padding: 20px;
+    margin: 0;
+}
+
+.navigations a:hover {
+    color: black;
+    background-color: #ededed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    text-align: center;
+}
+
+.navigations a {
+    color: white;
+    padding-left: 120px;
+    padding-right: 120px;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer {
+    color: black;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.loginForm,
+.registerForm,
+.orderForm {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 18px;
+
+}
+
+.loginForm label,
+.registerForm label,
+.orderForm label {
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.loginForm input,
+.registerForm input,
+.orderForm input,
+.orderForm option {
+    border-radius: 10px;
+}
+
+.loginForm button,
+.registerForm button,
+.orderForm button {
+    border-radius: 10px;
+    width: 150px;
+}
+
+label {
+    margin-right: 10px;
+    /* Space between label and input */
+    width: 150px;
+    /* Fixed width for labels */
+}
+
+.orderForm select {
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 15px;
+    width: 150px;
+    border: 2px solid #000000;
+}
+
+select {
+    border-radius: 10px;
+    width: 100%;
+    /* Full width for dropdowns */
+    padding: 8px;
+    /* Add padding for better appearance */
+    margin-left: 10px;
+    /* Space between dropdown and label */
+}
+
+.orderForm,
+.loginForm,
+.registerForm {
+    background-color: #c5cdce;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    /* Align items in a row */
+    align-items: center;
+    /* Center align items vertically */
+    margin-bottom: 10px;
+    /* Space between each row */
+    width: 100%;
+    /* Full width of the form */
+}
+
+.ordersTable {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.ordersTable,
+.ordersTable td,
+.ordersTable th {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.ordersTable td,
+.ordersTable th {
+    padding: 5px 10px;
+}
+
+.ordersTable td {
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.ordersTable th {
+    color: white;
+    font-weight: bold;
+    background-color: #000000;
+}
